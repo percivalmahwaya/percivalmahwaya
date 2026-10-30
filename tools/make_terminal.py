@@ -26,7 +26,7 @@ out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBo
  '<style>',
  'text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"DejaVu Sans Mono",monospace;font-size:16px;fill:#c9d1d9;white-space:pre}',
  '.k{fill:#7ee787}.p{fill:#79c0ff}.d{fill:#8b949e}.t{font-size:13px;fill:#8b949e}',
- '@keyframes b{0%,49%{opacity:1}50%,100%{opacity:0}}.cur{animation:b 1s steps(1) infinite}',
+ '@keyframes b{0%,49%{opacity:1}50%,100%{opacity:0}}.cur{animation:b 1s steps(1) 6}',
  '@media (prefers-reduced-motion:reduce){.l{visibility:visible!important}.cmd{clip-path:none!important}.cur{animation:none}}',
  '</style>',
  f'<defs><clipPath id="c"><rect x="{X0+2*CW}" y="{TOP-18}" width="0" height="24">'

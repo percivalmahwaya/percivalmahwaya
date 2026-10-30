@@ -5,7 +5,10 @@
     "allowed_elements": [
       "sub",
       "br",
-      "img"
+      "img",
+      "a",
+      "p",
+      "code"
     ]
   },
   "MD041": false
