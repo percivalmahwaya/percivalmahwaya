@@ -1,18 +1,14 @@
-# Percival Mahwaya
+<img src="./assets/terminal.svg" width="100%" alt="Terminal window. Command: whoami --verbose. Output: name: Percival Mahwaya. role: Data and platform engineer. where: Katowice, Poland. degree: MSc Data Science, Akademia WSB, 2026. before: More than half a decade in law-enforcement IT, Zimbabwe. now: Functional QA tester, Keywords Studios. stack: Python, SQL, Django, GitHub Actions. open: Data, platform and research roles. Ireland or Australia.">
 
-Data and platform engineer in Katowice, Poland.
+I build systems which run, then publish how well they run. I spent more than half a decade in law-enforcement IT in Zimbabwe, where a wrong record led to a wrong action.
 
-I build systems which run, then publish how well they run. I hold an MSc in Data Science (Akademia WSB, 2026). Before the degree I spent more than five years in law-enforcement IT in Zimbabwe, where a wrong record led to a wrong action. Today I work as a functional QA tester at Keywords Studios.
+[Portfolio](https://percivalmahwaya.github.io) · [LinkedIn](https://linkedin.com/in/percivalmahwaya) · [Contact](https://percivalmahwaya.github.io/contact.html)
 
-Open to data, platform and research roles. Open to relocating to Ireland or Australia.
-
-[Portfolio](https://percivalmahwaya.github.io) · [LinkedIn](https://linkedin.com/in/percivalmahwaya) · [Contact page](https://percivalmahwaya.github.io/contact.html)
-
-## Topics I talk about
+## Topics
 
 - Judging a forecast: held-out seasons, noise floors, models built to show where they lose
-- Scheduled data pipelines which retrain and publish without me
-- Django systems which take payments and keep administrators behind two-factor login
+- Scheduled pipelines which retrain and publish without me
+- Django systems with payments and two-factor administrator login
 - Release checks run against the deployed system
 - Applied machine learning for public safety
 
@@ -34,22 +30,17 @@ Each row links to the file which shows the skill. Under each link is what checks
 | Machine learning for public safety | [model_comparison.csv](https://github.com/percivalmahwaya/crime-hotspot-dss/blob/master/data/model_comparison.csv)<br>Four models compared on one table |
 | Framework-free web (HTML, CSS, JavaScript) | [Portfolio source](https://github.com/percivalmahwaya/percivalmahwaya.github.io)<br>Source is public. No CI yet |
 
-OSP Scout is a private repository. Its pipeline validates a published data contract and runs five test suites before every publish. I show it on request.
+OSP Scout is a private repository: a pipeline which validates a data contract and runs five test suites before each publish. I show it on request.
 
-## Still learning
+Still learning: Docker, Terraform and Kubernetes. No public proof yet, so they are not listed as skills.
 
-Docker, Terraform and Kubernetes. I have no public proof of them yet, so I do not list them as skills. I hold the AWS Solutions Architect Associate certificate. No AWS project is public yet.
+## Work
 
-## Selected work
-
-| Project | What it does | Numbers |
-|---|---|---|
-| [FPL Decision Engine](https://github.com/percivalmahwaya/fpl-decision-engine) · [live](https://percivalmahwaya.github.io/fpl-decision-engine/) | Retrains, predicts, scores itself and republishes every three hours. Backtested against FPL's own expected points on a held-out season. | 77 test functions. Four models on one public scoreboard |
-| [Bulawayo Chess Hub](https://github.com/percivalmahwaya/bcachesshub) · [live](https://web-production-abe9b.up.railway.app) | Tournament administration for a chess association: Swiss pairing, Elo ratings, Lichess sign-in, Paynow payments. | 260 test functions. 8 Django apps |
-| [Crime Hotspot DSS](https://github.com/percivalmahwaya/crime-hotspot-dss) · [live](https://crime-hotspot-dss-8d2jrkagpvgsegqp6y23d4.streamlit.app/) | My MSc thesis as a dashboard. A Random Forest sorts Chicago police beats into three patrol tiers. The free host sleeps when idle and wakes in about a minute. | AUC-ROC 0.966. Next best model 0.867 |
-| OSP Scout · [live](https://osp-scout.pages.dev) | Read-only Fantasy Premier League companion for a friend group. It holds no credentials. | 169 test assertions. Private repository |
-| [Portfolio](https://github.com/percivalmahwaya/percivalmahwaya.github.io) · [live](https://percivalmahwaya.github.io) | Three case studies, each with what went wrong. | Plain HTML, CSS and JavaScript |
-| [SIPDiDS dashboard](https://github.com/percivalmahwaya/team-project-semester4) | Team project joining Reddit sentiment, stock, movie and publication data. I coordinated the team. | 5 data sources, 5 team members |
+- [FPL Decision Engine](https://github.com/percivalmahwaya/fpl-decision-engine) · [live](https://percivalmahwaya.github.io/fpl-decision-engine/). Retrains, predicts, scores itself and republishes every three hours. 77 test functions.
+- [Bulawayo Chess Hub](https://github.com/percivalmahwaya/bcachesshub) · [live](https://web-production-abe9b.up.railway.app). Tournament administration with Swiss pairing, Elo and Paynow payments. 260 test functions, 8 Django apps.
+- [Crime Hotspot DSS](https://github.com/percivalmahwaya/crime-hotspot-dss) · [live](https://crime-hotspot-dss-8d2jrkagpvgsegqp6y23d4.streamlit.app/). My MSc thesis as a dashboard. AUC-ROC 0.966, next best model 0.867. The free host sleeps and wakes in about a minute.
+- [Portfolio](https://github.com/percivalmahwaya/percivalmahwaya.github.io) · [live](https://percivalmahwaya.github.io). Three case studies, each with what went wrong.
+- [SIPDiDS dashboard](https://github.com/percivalmahwaya/team-project-semester4). Team project over 5 data sources. I coordinated 5 people.
 
 ## Latest
 
