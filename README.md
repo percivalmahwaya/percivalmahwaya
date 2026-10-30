@@ -18,21 +18,21 @@ Open to data, platform and research roles. Open to relocating to Ireland or Aust
 
 ## Skills, with proof
 
-Each row links to the file which shows the skill. The last column says what checks it.
+Each row links to the file which shows the skill. Under each link is what checks it.
 
-| Skill | Proof | What checks it |
-|---|---|---|
-| Forecast modelling and evaluation (Python, pandas, scikit-learn) | [model.py](https://github.com/percivalmahwaya/fpl-decision-engine/blob/main/model.py), [DECISION_LOG.md](https://github.com/percivalmahwaya/fpl-decision-engine/blob/main/DECISION_LOG.md) | Data, leakage and model checks in [qa.py](https://github.com/percivalmahwaya/fpl-decision-engine/blob/main/qa.py), run by the pipeline |
-| Optimisation (mixed-integer programming with SciPy) | [optimise.py](https://github.com/percivalmahwaya/fpl-decision-engine/blob/main/optimise.py) | [test_challenger.py](https://github.com/percivalmahwaya/fpl-decision-engine/blob/main/test_challenger.py), 12 tests |
-| SQL and schema migration (SQLite) | [migrate.py](https://github.com/percivalmahwaya/fpl-decision-engine/blob/main/migrate.py) | [test_migrate.py](https://github.com/percivalmahwaya/fpl-decision-engine/blob/main/test_migrate.py), 16 tests |
-| Scheduled pipelines on GitHub Actions | [fpl.yml](https://github.com/percivalmahwaya/fpl-decision-engine/blob/main/.github/workflows/fpl.yml), every three hours | Run history in the Latest section below |
-| Alerting | [alert.py](https://github.com/percivalmahwaya/fpl-decision-engine/blob/main/alert.py) | Runs inside the same pipeline |
-| Django and PostgreSQL | [bcaChessHub README](https://github.com/percivalmahwaya/bcachesshub/blob/master/README.md), 8 apps | 260 test functions. No CI run yet |
-| Payments and authentication | [members/middleware.py](https://github.com/percivalmahwaya/bcachesshub/blob/master/members/middleware.py), [CHANGELOG.md](https://github.com/percivalmahwaya/bcachesshub/blob/master/CHANGELOG.md) | Changelog records two payment flaws I found and closed |
-| Checks against a deployed system | [qa_production.py](https://github.com/percivalmahwaya/bcachesshub/blob/master/qa_production.py), [qa_deploy.py](https://github.com/percivalmahwaya/fpl-decision-engine/blob/main/qa_deploy.py) | Run by me before each release |
-| Dashboards (Streamlit) | [app.py](https://github.com/percivalmahwaya/crime-hotspot-dss/blob/master/app.py), [master_dashboard.py](https://github.com/percivalmahwaya/team-project-semester4/blob/master/master_dashboard.py) | Live dashboard in Selected work |
-| Machine learning for public safety | [model_comparison.csv](https://github.com/percivalmahwaya/crime-hotspot-dss/blob/master/data/model_comparison.csv) | Four models compared on one table |
-| Framework-free web (HTML, CSS, JavaScript) | [Portfolio source](https://github.com/percivalmahwaya/percivalmahwaya.github.io) | Source is public. No CI yet |
+| Skill | Proof and check |
+|---|---|
+| Forecast modelling and evaluation (Python, pandas, scikit-learn) | [model.py](https://github.com/percivalmahwaya/fpl-decision-engine/blob/main/model.py), [DECISION_LOG.md](https://github.com/percivalmahwaya/fpl-decision-engine/blob/main/DECISION_LOG.md)<br>Data, leakage and model checks in [qa.py](https://github.com/percivalmahwaya/fpl-decision-engine/blob/main/qa.py), run by the pipeline |
+| Optimisation (mixed-integer programming with SciPy) | [optimise.py](https://github.com/percivalmahwaya/fpl-decision-engine/blob/main/optimise.py)<br>[test_challenger.py](https://github.com/percivalmahwaya/fpl-decision-engine/blob/main/test_challenger.py), 12 tests |
+| SQL and schema migration (SQLite) | [migrate.py](https://github.com/percivalmahwaya/fpl-decision-engine/blob/main/migrate.py)<br>[test_migrate.py](https://github.com/percivalmahwaya/fpl-decision-engine/blob/main/test_migrate.py), 16 tests |
+| Scheduled pipelines on GitHub Actions | [fpl.yml](https://github.com/percivalmahwaya/fpl-decision-engine/blob/main/.github/workflows/fpl.yml), every three hours<br>Run history in the Latest section below |
+| Alerting | [alert.py](https://github.com/percivalmahwaya/fpl-decision-engine/blob/main/alert.py)<br>Runs inside the same pipeline |
+| Django and PostgreSQL | [bcaChessHub README](https://github.com/percivalmahwaya/bcachesshub/blob/master/README.md), 8 apps<br>260 test functions. No CI run yet |
+| Payments and authentication | [members/middleware.py](https://github.com/percivalmahwaya/bcachesshub/blob/master/members/middleware.py), [CHANGELOG.md](https://github.com/percivalmahwaya/bcachesshub/blob/master/CHANGELOG.md)<br>Changelog records two payment flaws I found and closed |
+| Checks against a deployed system | [qa_production.py](https://github.com/percivalmahwaya/bcachesshub/blob/master/qa_production.py), [qa_deploy.py](https://github.com/percivalmahwaya/fpl-decision-engine/blob/main/qa_deploy.py)<br>Run by me before each release |
+| Dashboards (Streamlit) | [app.py](https://github.com/percivalmahwaya/crime-hotspot-dss/blob/master/app.py), [master_dashboard.py](https://github.com/percivalmahwaya/team-project-semester4/blob/master/master_dashboard.py)<br>Live dashboard in Selected work |
+| Machine learning for public safety | [model_comparison.csv](https://github.com/percivalmahwaya/crime-hotspot-dss/blob/master/data/model_comparison.csv)<br>Four models compared on one table |
+| Framework-free web (HTML, CSS, JavaScript) | [Portfolio source](https://github.com/percivalmahwaya/percivalmahwaya.github.io)<br>Source is public. No CI yet |
 
 OSP Scout is a private repository. Its pipeline validates a published data contract and runs five test suites before every publish. I show it on request.
 
