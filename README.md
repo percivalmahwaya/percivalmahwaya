@@ -1,4 +1,4 @@
-<img src="./assets/terminal.svg" width="100%" alt="Terminal window. Command: whoami --verbose. Output: name: Percival Mahwaya. role: Data and platform engineer. where: Katowice, Poland. degree: MSc Data Science, Akademia WSB, 2026. before: More than half a decade in law-enforcement IT, Zimbabwe. now: Functional QA tester, Keywords Studios. stack: Python, SQL, Django, GitHub Actions. open: Data, platform and research roles. Ireland or Australia.">
+<img src="./assets/terminal.svg" width="100%" alt="Terminal window. Command: whoami --verbose. Output: name: Percival Mahwaya. role: Data and platform engineer. where: Katowice, Poland. degree: MSc Data Science, Akademia WSB, 2026. before: More than half a decade of law-enforcement IT. now: Functional QA tester, Keywords Studios. stack: Python, SQL, Django, GitHub Actions. open: Data, platform, research. Ireland or Australia.">
 
 I build systems which run, then publish how well they run. I spent more than half a decade in law-enforcement IT in Zimbabwe, where a wrong record led to a wrong action.
 

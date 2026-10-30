@@ -8,12 +8,12 @@ ROWS = [
     ("role", "Data and platform engineer"),
     ("where", "Katowice, Poland"),
     ("degree", "MSc Data Science, Akademia WSB, 2026"),
-    ("before", "More than half a decade in law-enforcement IT, Zimbabwe"),
+    ("before", "More than half a decade of law-enforcement IT"),
     ("now", "Functional QA tester, Keywords Studios"),
     ("stack", "Python, SQL, Django, GitHub Actions"),
-    ("open", "Data, platform and research roles. Ireland or Australia."),
+    ("open", "Data, platform, research. Ireland or Australia."),
 ]
-W, CW, LH, X0, KEYW = 760, 8.4, 24, 28, 9   # width, char width, line height, left pad, key column chars
+W, CW, LH, X0, KEYW = 640, 9.6, 26, 28, 8   # width, char width, line height, left pad, key column chars
 TOP = 78
 TYPE0, PER_CHAR, GAP = 0.6, 0.07, 0.22
 
@@ -24,8 +24,8 @@ t_cmd_end = TYPE0 + PER_CHAR * len(CMD)
 out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{escape(alt, {chr(34): "&quot;"})}">',
  f'<title>{escape(alt)}</title>',
  '<style>',
- 'text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"DejaVu Sans Mono",monospace;font-size:14px;fill:#c9d1d9;white-space:pre}',
- '.k{fill:#7ee787}.p{fill:#79c0ff}.d{fill:#8b949e}.t{font-size:12px;fill:#8b949e}',
+ 'text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"DejaVu Sans Mono",monospace;font-size:16px;fill:#c9d1d9;white-space:pre}',
+ '.k{fill:#7ee787}.p{fill:#79c0ff}.d{fill:#8b949e}.t{font-size:13px;fill:#8b949e}',
  '@keyframes b{0%,49%{opacity:1}50%,100%{opacity:0}}.cur{animation:b 1s steps(1) infinite}',
  '@media (prefers-reduced-motion:reduce){.l{visibility:visible!important}.cmd{clip-path:none!important}.cur{animation:none}}',
  '</style>',
