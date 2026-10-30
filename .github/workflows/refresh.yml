@@ -1,0 +1,63 @@
+name: refresh-and-check
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      break_source:
+        description: "Point the accuracy source at a dead URL to prove the job goes red"
+        type: boolean
+        default: false
+  schedule:
+    - cron: "17 5 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Unit tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Refresh the Latest section (fails if any source is empty)
+        run: |
+          if [ "${{ inputs.break_source }}" = "true" ]; then
+            export ACCURACY_URL="https://raw.githubusercontent.com/percivalmahwaya/fpl-decision-engine/main/does-not-exist.json"
+          fi
+          python3 tools/refresh.py
+
+      - name: README checks (markers, banned text, alt text, evidence paths)
+        run: python3 tools/check_readme.py
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: markdownlint
+        run: npx --yes markdownlint-cli2@0.14.0 README.md
+
+      - name: Links (lychee)
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --accept 200,206,429 README.md
+          fail: true
+
+      - name: Commit if the Latest section changed (main only)
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        run: |
+          git diff --quiet README.md && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Refresh Latest section"
+          git push
