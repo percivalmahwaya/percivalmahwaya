@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="364" viewBox="0 0 640 364" role="img" aria-label="Terminal window. Command: whoami --verbose. Output: name: Percival Mahwaya. role: Data and platform engineer. where: Katowice, Poland. degree: MSc Data Science, Akademia WSB, 2026. before: More than half a decade of law-enforcement IT. now: Functional QA tester, Keywords Studios. stack: Python, SQL, Django, GitHub Actions. open: Data, platform, research. Ireland or Australia.">
-<title>Terminal window. Command: whoami --verbose. Output: name: Percival Mahwaya. role: Data and platform engineer. where: Katowice, Poland. degree: MSc Data Science, Akademia WSB, 2026. before: More than half a decade of law-enforcement IT. now: Functional QA tester, Keywords Studios. stack: Python, SQL, Django, GitHub Actions. open: Data, platform, research. Ireland or Australia.</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="364" viewBox="0 0 640 364" role="img" aria-label="Terminal window. Command: whoami --verbose. Output: name: Percival Mahwaya. role: Data and DevOps engineer. where: Katowice, Poland. degree: MSc Data Science, Akademia WSB, 2026. before: More than half a decade of law-enforcement IT. now: Functional QA tester, Keywords Studios. stack: Python, SQL, GitHub Actions, Django. open: Data, DevOps, research. Ireland or Australia.">
+<title>Terminal window. Command: whoami --verbose. Output: name: Percival Mahwaya. role: Data and DevOps engineer. where: Katowice, Poland. degree: MSc Data Science, Akademia WSB, 2026. before: More than half a decade of law-enforcement IT. now: Functional QA tester, Keywords Studios. stack: Python, SQL, GitHub Actions, Django. open: Data, DevOps, research. Ireland or Australia.</title>
 <style>
 text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"DejaVu Sans Mono",monospace;font-size:16px;fill:#c9d1d9;white-space:pre}
 .k{fill:#7ee787}.p{fill:#79c0ff}.d{fill:#8b949e}.t{font-size:13px;fill:#8b949e}
@@ -14,12 +14,12 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"DejaVu Sans Mono",m
 <text x="28" y="78"><tspan class="k">$</tspan></text>
 <text class="cmd" clip-path="url(#c)" x="47.2" y="78" textLength="153.6" lengthAdjust="spacing">whoami --verbose</text>
 <text class="l" visibility="hidden" x="28" y="110"><tspan class="p">name    </tspan>Percival Mahwaya<set attributeName="visibility" to="visible" begin="2.07s" fill="freeze"/></text>
-<text class="l" visibility="hidden" x="28" y="136"><tspan class="p">role    </tspan>Data and platform engineer<set attributeName="visibility" to="visible" begin="2.29s" fill="freeze"/></text>
+<text class="l" visibility="hidden" x="28" y="136"><tspan class="p">role    </tspan>Data and DevOps engineer<set attributeName="visibility" to="visible" begin="2.29s" fill="freeze"/></text>
 <text class="l" visibility="hidden" x="28" y="162"><tspan class="p">where   </tspan>Katowice, Poland<set attributeName="visibility" to="visible" begin="2.51s" fill="freeze"/></text>
 <text class="l" visibility="hidden" x="28" y="188"><tspan class="p">degree  </tspan>MSc Data Science, Akademia WSB, 2026<set attributeName="visibility" to="visible" begin="2.73s" fill="freeze"/></text>
 <text class="l" visibility="hidden" x="28" y="214"><tspan class="p">before  </tspan>More than half a decade of law-enforcement IT<set attributeName="visibility" to="visible" begin="2.95s" fill="freeze"/></text>
 <text class="l" visibility="hidden" x="28" y="240"><tspan class="p">now     </tspan>Functional QA tester, Keywords Studios<set attributeName="visibility" to="visible" begin="3.17s" fill="freeze"/></text>
-<text class="l" visibility="hidden" x="28" y="266"><tspan class="p">stack   </tspan>Python, SQL, Django, GitHub Actions<set attributeName="visibility" to="visible" begin="3.39s" fill="freeze"/></text>
-<text class="l" visibility="hidden" x="28" y="292"><tspan class="p">open    </tspan>Data, platform, research. Ireland or Australia.<set attributeName="visibility" to="visible" begin="3.61s" fill="freeze"/></text>
+<text class="l" visibility="hidden" x="28" y="266"><tspan class="p">stack   </tspan>Python, SQL, GitHub Actions, Django<set attributeName="visibility" to="visible" begin="3.39s" fill="freeze"/></text>
+<text class="l" visibility="hidden" x="28" y="292"><tspan class="p">open    </tspan>Data, DevOps, research. Ireland or Australia.<set attributeName="visibility" to="visible" begin="3.61s" fill="freeze"/></text>
 <text class="l" visibility="hidden" x="28" y="324"><tspan class="k">$</tspan> <tspan class="cur">&#9608;</tspan><set attributeName="visibility" to="visible" begin="3.83s" fill="freeze"/></text>
 </svg>

@@ -5,13 +5,13 @@ from xml.sax.saxutils import escape
 CMD = "whoami --verbose"
 ROWS = [
     ("name", "Percival Mahwaya"),
-    ("role", "Data and platform engineer"),
+    ("role", "Data and DevOps engineer"),
     ("where", "Katowice, Poland"),
     ("degree", "MSc Data Science, Akademia WSB, 2026"),
     ("before", "More than half a decade of law-enforcement IT"),
     ("now", "Functional QA tester, Keywords Studios"),
-    ("stack", "Python, SQL, Django, GitHub Actions"),
-    ("open", "Data, platform, research. Ireland or Australia."),
+    ("stack", "Python, SQL, GitHub Actions, Django"),
+    ("open", "Data, DevOps, research. Ireland or Australia."),
 ]
 W, CW, LH, X0, KEYW = 640, 9.6, 26, 28, 8   # width, char width, line height, left pad, key column chars
 TOP = 78
