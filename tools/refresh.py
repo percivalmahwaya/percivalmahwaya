@@ -43,7 +43,12 @@ def http_json(url):
 
 def gh_json(path):
     try:
-        out = subprocess.run(["gh", "api", path], capture_output=True, text=True, timeout=60)
+        # encoding explicit, not text=True's locale default: Windows falls
+        # back to cp1252, which crashes on a non-ASCII byte in any commit
+        # message or author name gh api returns (seen locally 2026-11-08).
+        # CI runs on Linux, defaults to UTF-8, so this never showed up there.
+        out = subprocess.run(["gh", "api", path], capture_output=True,
+                              text=True, encoding="utf-8", timeout=60)
     except Exception as e:
         raise SourceError(f"gh api {path}: {e}")
     if out.returncode != 0:

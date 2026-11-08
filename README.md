@@ -1,4 +1,4 @@
-<img src="./assets/terminal.svg" width="100%" alt="Terminal window. Command: whoami --verbose. Output: name: Percival Mahwaya. role: Data and DevOps engineer. where: Katowice, Poland. degree: MSc Data Science, Akademia WSB, 2026. before: More than half a decade of law-enforcement IT. now: Functional QA tester, Keywords Studios. stack: Python, SQL, GitHub Actions, Django. open: Data, DevOps, research. Ireland or Australia.">
+<img src="./assets/terminal.svg" width="100%" alt="Terminal window. Command: whoami --verbose. Output: name: Percival Mahwaya. role: Data and DevOps engineer. where: Katowice, Poland. degree: MSc Data Science, Akademia WSB, 2026. before: More than half a decade of law-enforcement IT. now: Pivoting to DevOps/cloud engineering. stack: Python, SQL, GitHub Actions, Django. open: Data, DevOps, research. Ireland or Australia.">
 
 <p align="center">
   <a href="https://percivalmahwaya.github.io">Portfolio</a> ·
@@ -39,19 +39,19 @@ Still learning: Docker, Terraform and Kubernetes. No public proof yet.
 Updated by a workflow. The workflow fails if a source returns nothing.
 
 <!-- latest:start -->
-FPL Decision Engine scoreboard, gameweek 8: model error (MAE) 1.075 against 1.247 and 1.347 for the two baselines. Lower is better. It loses on high-return players: 5.191 against 4.877 and 4.884. Only 5 gameweeks are scored.
+FPL Decision Engine scoreboard, gameweek 9: model error (MAE) 0.920 against 1.015 and 1.075 for the two baselines. Lower is better. It loses on high-return players: 4.835 against 4.054 and 4.117. Only 6 gameweeks are scored.
 
-FPL pipeline: the last completed run succeeded on 2026-10-29 18:31 UTC.
+FPL pipeline: the last completed run succeeded on 2026-11-08 07:03 UTC.
 
 Recent commits:
 
+- 2026-11-07 [fpl-decision-engine](https://github.com/percivalmahwaya/fpl-decision-engine/commit/6d700b3852752fe7de5133e89dc3715561852bf8): Fix recurring GW-finished race: QA and backfill now read one shared signal
 - 2026-10-11 [percivalmahwaya.github.io](https://github.com/percivalmahwaya/percivalmahwaya.github.io/commit/283eda2791d2b06acdb4b62ed52b8092bbe9671e): add .nojekyll: a Liquid tag in an ADR was hanging the Pages build
 - 2026-10-11 [percivalmahwaya.github.io](https://github.com/percivalmahwaya/percivalmahwaya.github.io/commit/9cbf1af793afe152380a3a8551341762b352985a): correct a wrong "not live" call, and the stale memory behind it
 - 2026-10-11 [percivalmahwaya.github.io](https://github.com/percivalmahwaya/percivalmahwaya.github.io/commit/617ca1ed592eb1816241cc4ea000f5024397c612): redesign the site: dark/light editorial rebuild, spec-first
 - 2026-10-10 [percivalmahwaya.github.io](https://github.com/percivalmahwaya/percivalmahwaya.github.io/commit/d2a9b54d2919474ae64fa8874e348b29468439d6): add bcaChessHub, Progeny FPL engine, OSP Scout, and chess economics research ...
-- 2026-10-01 [bcachesshub](https://github.com/percivalmahwaya/bcaChessHub/commit/be4d8a94088a04c52f74f037bfac1bd9339e9d11): require 2FA for administrator accounts, fix stale pending-list items
 
-<sub>Refreshed 2026-10-30 00:30 UTC by tools/refresh.py.</sub>
+<sub>Refreshed 2026-11-08 07:15 UTC by tools/refresh.py.</sub>
 <!-- latest:end -->
 
 <p align="center">

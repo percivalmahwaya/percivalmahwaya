@@ -9,7 +9,7 @@ ROWS = [
     ("where", "Katowice, Poland"),
     ("degree", "MSc Data Science, Akademia WSB, 2026"),
     ("before", "More than half a decade of law-enforcement IT"),
-    ("now", "Functional QA tester, Keywords Studios"),
+    ("now", "Pivoting to DevOps/cloud engineering"),
     ("stack", "Python, SQL, GitHub Actions, Django"),
     ("open", "Data, DevOps, research. Ireland or Australia."),
 ]
