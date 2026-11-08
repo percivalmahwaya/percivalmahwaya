@@ -6,7 +6,7 @@ Run: python3 tools/make_tour.py"""
 S, M, TOP = 44, 28, 14                 # square size, left margin for ranks, top pad
 W = M + 8 * S + 14
 H = TOP + 8 * S + 22 + 34
-STEP, T0 = 0.35, 0.6                   # seconds per move, start delay
+STEP, T0 = 0.6, 0.6                    # seconds per move, start delay
 MOVES = [(1,2),(2,1),(2,-1),(1,-2),(-1,-2),(-2,-1),(-2,1),(-1,2)]
 
 # Knight glyph: "chessnut" piece set from lichess.org's lila repo
