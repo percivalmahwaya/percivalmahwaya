@@ -11,7 +11,11 @@
   <img src="./assets/knights-tour.svg" width="360" alt="Animation of a knight's tour on a chessboard. A knight starts on a1 and visits all 64 squares exactly once in 63 moves, ending on h5. Each visited square is numbered in order.">
 </p>
 
-I build systems which run, then publish how well they run. More than half a decade of law-enforcement IT in Zimbabwe taught me that a wrong record leads to a wrong action. The animation above is a knight's tour, for the chess software.
+<p align="center">
+  <img src="./assets/kbn-mate.svg" width="360" alt="Animation of a King, Bishop and Knight checkmating a lone King. White plays Nf5, Kf6, Kd4, Kf7, Ke5, Kf8, Kf6, Ke8, Ng7+, Kd8, Ke6, Kc7, Ne8+, Kb8, Nd6, Ka8, Kd7, Kb8, Kd8, Ka8, Kc7, Ka7, Nc8+, Ka8, Be4#. Checkmate on move Be4.">
+</p>
+
+I build systems which run, then publish how well they run. More than half a decade of law-enforcement IT in Zimbabwe taught me that a wrong record leads to a wrong action. The animations above are a knight's tour and a real King+Bishop+Knight checkmate, for the chess software - both computed and verified, not hand-typed.
 
 ### `$ cat topics.txt`
 
