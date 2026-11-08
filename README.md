@@ -51,7 +51,7 @@ Recent commits:
 - 2026-10-11 [percivalmahwaya.github.io](https://github.com/percivalmahwaya/percivalmahwaya.github.io/commit/617ca1ed592eb1816241cc4ea000f5024397c612): redesign the site: dark/light editorial rebuild, spec-first
 - 2026-10-10 [percivalmahwaya.github.io](https://github.com/percivalmahwaya/percivalmahwaya.github.io/commit/d2a9b54d2919474ae64fa8874e348b29468439d6): add bcaChessHub, Progeny FPL engine, OSP Scout, and chess economics research ...
 
-<sub>Refreshed 2026-11-08 07:33 UTC by tools/refresh.py.</sub>
+<sub>Refreshed 2026-11-08 07:39 UTC by tools/refresh.py.</sub>
 <!-- latest:end -->
 
 <p align="center">
