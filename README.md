@@ -45,7 +45,7 @@ Updated by a workflow. The workflow fails if a source returns nothing.
 <!-- latest:start -->
 FPL Decision Engine scoreboard, gameweek 9: model error (MAE) 0.920 against 1.015 and 1.075 for the two baselines. Lower is better. It loses on high-return players: 4.835 against 4.054 and 4.117. Only 6 gameweeks are scored.
 
-FPL pipeline: the last completed run succeeded on 2026-11-08 07:03 UTC.
+FPL pipeline: the last completed run succeeded on 2026-11-09 06:43 UTC.
 
 Recent commits:
 
@@ -55,7 +55,7 @@ Recent commits:
 - 2026-10-11 [percivalmahwaya.github.io](https://github.com/percivalmahwaya/percivalmahwaya.github.io/commit/617ca1ed592eb1816241cc4ea000f5024397c612): redesign the site: dark/light editorial rebuild, spec-first
 - 2026-10-10 [percivalmahwaya.github.io](https://github.com/percivalmahwaya/percivalmahwaya.github.io/commit/d2a9b54d2919474ae64fa8874e348b29468439d6): add bcaChessHub, Progeny FPL engine, OSP Scout, and chess economics research ...
 
-<sub>Refreshed 2026-11-08 08:08 UTC by tools/refresh.py.</sub>
+<sub>Refreshed 2026-11-09 14:00 UTC by tools/refresh.py.</sub>
 <!-- latest:end -->
 
 <p align="center">
