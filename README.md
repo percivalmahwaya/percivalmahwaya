@@ -45,17 +45,17 @@ Updated by a workflow. The workflow fails if a source returns nothing.
 <!-- latest:start -->
 FPL Decision Engine scoreboard, gameweek 10: model error (MAE) 0.983 against 1.142 and 1.173 for the two baselines. Lower is better. It loses on high-return players: 5.214 against 4.813 and 4.868. Only 7 gameweeks are scored.
 
-FPL pipeline: the last completed run succeeded on 2026-11-11 06:33 UTC.
+FPL pipeline: the last completed run succeeded on 2026-11-12 11:23 UTC.
 
 Recent commits:
 
-- 2026-11-07 [fpl-decision-engine](https://github.com/percivalmahwaya/fpl-decision-engine/commit/6d700b3852752fe7de5133e89dc3715561852bf8): Fix recurring GW-finished race: QA and backfill now read one shared signal
 - 2026-10-11 [percivalmahwaya.github.io](https://github.com/percivalmahwaya/percivalmahwaya.github.io/commit/283eda2791d2b06acdb4b62ed52b8092bbe9671e): add .nojekyll: a Liquid tag in an ADR was hanging the Pages build
 - 2026-10-11 [percivalmahwaya.github.io](https://github.com/percivalmahwaya/percivalmahwaya.github.io/commit/9cbf1af793afe152380a3a8551341762b352985a): correct a wrong "not live" call, and the stale memory behind it
 - 2026-10-11 [percivalmahwaya.github.io](https://github.com/percivalmahwaya/percivalmahwaya.github.io/commit/617ca1ed592eb1816241cc4ea000f5024397c612): redesign the site: dark/light editorial rebuild, spec-first
 - 2026-10-10 [percivalmahwaya.github.io](https://github.com/percivalmahwaya/percivalmahwaya.github.io/commit/d2a9b54d2919474ae64fa8874e348b29468439d6): add bcaChessHub, Progeny FPL engine, OSP Scout, and chess economics research ...
+- 2026-10-01 [bcachesshub](https://github.com/percivalmahwaya/bcaChessHub/commit/be4d8a94088a04c52f74f037bfac1bd9339e9d11): require 2FA for administrator accounts, fix stale pending-list items
 
-<sub>Refreshed 2026-11-11 12:48 UTC by tools/refresh.py.</sub>
+<sub>Refreshed 2026-11-12 13:51 UTC by tools/refresh.py.</sub>
 <!-- latest:end -->
 
 <p align="center">
