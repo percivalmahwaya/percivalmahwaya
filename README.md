@@ -43,9 +43,9 @@ Still learning: Docker, Terraform and Kubernetes. No public proof yet.
 Updated by a workflow. The workflow fails if a source returns nothing.
 
 <!-- latest:start -->
-FPL Decision Engine scoreboard, gameweek 10: model error (MAE) 0.983 against 1.142 and 1.173 for the two baselines. Lower is better. It loses on high-return players: 5.214 against 4.813 and 4.868. Only 7 gameweeks are scored.
+FPL Decision Engine scoreboard, gameweek 11: model error (MAE) 1.098 against 1.195 and 1.238 for the two baselines. Lower is better. It loses on high-return players: 5.173 against 4.483 and 4.520. Only 8 gameweeks are scored.
 
-FPL pipeline: the last completed run succeeded on 2026-11-24 13:50 UTC.
+FPL pipeline: the last completed run succeeded on 2026-11-28 07:55 UTC.
 
 Recent commits:
 
@@ -55,7 +55,7 @@ Recent commits:
 - 2026-10-10 [percivalmahwaya.github.io](https://github.com/percivalmahwaya/percivalmahwaya.github.io/commit/d2a9b54d2919474ae64fa8874e348b29468439d6): add bcaChessHub, Progeny FPL engine, OSP Scout, and chess economics research ...
 - 2026-10-01 [bcachesshub](https://github.com/percivalmahwaya/bcaChessHub/commit/be4d8a94088a04c52f74f037bfac1bd9339e9d11): require 2FA for administrator accounts, fix stale pending-list items
 
-<sub>Refreshed 2026-11-24 15:58 UTC by tools/refresh.py.</sub>
+<sub>Refreshed 2026-11-28 14:19 UTC by tools/refresh.py.</sub>
 <!-- latest:end -->
 
 <p align="center">
